@@ -36,7 +36,7 @@ describe('AuthMiddleware', () => {
     });
   });
 
-  it('should return ANAUTHORIZED middleware if theres no token', () => {
+  it('should return UNAUTHORIZED middleware if theres no token', () => {
     const reqFake = {
       headers: {},
     };
